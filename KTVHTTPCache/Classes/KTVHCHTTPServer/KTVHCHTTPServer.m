@@ -38,7 +38,7 @@
         KTVHCLogAlloc(self);
         self.server = [[HTTPServer alloc] init];
         [self.server setConnectionClass:[KTVHCHTTPConnection class]];
-        [self.server setType:@"_http._tcp."];
+//        [self.server setType:@"_http._tcp."];
         [self.server setPort:80];
         self.backgroundTask = UIBackgroundTaskInvalid;
         [[NSNotificationCenter defaultCenter] addObserver:self
