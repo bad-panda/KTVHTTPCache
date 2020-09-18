@@ -345,7 +345,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 	return result;
 }
 
-- (void)setType:(NSString *)value
+- (void)setTypehttp:(NSString *)value
 {
 	NSString *valueCopy = [value copy];
 	
